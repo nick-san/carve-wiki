@@ -1,6 +1,7 @@
 ---
 title: "場所"
 weight: 1
+draft: false
 # bookFlatSection: false
 # bookToc: true
 # bookHidden: false

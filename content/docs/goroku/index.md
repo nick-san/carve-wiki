@@ -1,8 +1,14 @@
-+++
-title = '語録や用語'
-date = 2024-05-23T00:01:23+09:00
-draft = false
-+++
+---
+title: "語録や用語集"
+weight: 1
+draft: false
+# bookFlatSection: false
+# bookToc: true
+# bookHidden: false
+# bookCollapseSection: false
+# bookComments: false
+# bookSearchExclude: false
+---
 
 # 語録や用語
 
@@ -53,3 +59,4 @@ draft = false
 - アンダーネオン
 
 等のパーツの装着が義務付けられている
+
