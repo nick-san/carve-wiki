@@ -1,14 +1,14 @@
 {
   "name": "FUN CARVE Wiki",
   "short_name": "FUN CARVE Wiki",
-  "start_url": "/",
-  "scope": "/",
+  "start_url": "/carve-wiki/",
+  "scope": "/carve-wiki/",
   "display": "standalone",
   "background_color": "#000000",
   "theme_color": "#000000",
   "icons": [
     {
-      "src": "/favicon.svg",
+      "src": "/carve-wiki/favicon.svg",
       "sizes": "512x512"
     }
   ]
