@@ -1,0 +1,8 @@
+baseURL = 'https://example.org/'
+languageCode = 'ja'
+title = 'FUN CARVE Wiki'
+
+[module]                                
+[[module.imports]]
+path = 'github.com/alex-shpak/hugo-book'
+
