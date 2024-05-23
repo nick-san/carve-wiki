@@ -1,6 +1,7 @@
 baseURL = 'https://nick-san.github.io/carve-wiki/'
 languageCode = 'ja'
 title = 'FUN CARVE Wiki'
+unsafe = true
 
 [module]                                
 [[module.imports]]
