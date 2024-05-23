@@ -30,6 +30,8 @@ draft: false
 
 誰かが持っているパーツや車に対して、羨ましいという感情を表現する際に用いられる。
 
+なお、そう言っている本人はそこまで思っていないことが多い。(体感)
+
 
 ### ↑♯
 
@@ -57,6 +59,22 @@ draft: false
 
 発祥はニック(部員)。
 用法としては、何かに対して否定的なことを(自分を棚に上げて)発言したあとに、「あ俺か!w」と発言する。このことで罪に問われないという。
+
+## な行
+
+### ぬまさんまずいですよシリーズ
+
+OBのぬまさんが、弊学のプレゼンテーションベイで円書きをしたり、トヨタの博物館で壁などを走ったり、赤川セコマに入店する際に歩道でスタックするさま。
+
+参考ツイート等:
+
+{{<rawhtml>}}
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">「ぬまさん！ここは構内ですよ！！！あーっ！！！デフ入ってるからってプレゼンテーションベイで円描いたらまずいですよ！！！バゲンダ先生避けてーっ！！！！！！！」</p>&mdash; ﾆｯｸ (@rlysleepynick) <a href="https://twitter.com/rlysleepynick/status/1620133619338706944?ref_src=twsrc%5Etfw">January 30, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{</rawhtml>}}
+
+{{<rawhtml>}}
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">ホンモノのぬまさんまずいですよに出会えた！ <a href="https://t.co/77bA4wILAz">pic.twitter.com/77bA4wILAz</a></p>&mdash; あ (@syouma114) <a href="https://twitter.com/syouma114/status/1669579910887936000?ref_src=twsrc%5Etfw">June 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+{{</rawhtml>}}
 
 ## は行
 
