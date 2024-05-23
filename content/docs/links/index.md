@@ -14,6 +14,10 @@ draft: false
 
 弊部に関連したリンク集です。
 
-[函館ジムカーナチャンピョンシップ](http://hako-gym.com)
+- [函館ジムカーナチャンピョンシップ](http://hako-gym.com)
 
-[partsfan](https://partsfan.com/search/jp/)
+- [ジムキタ](http://gymkita.net/)
+
+- [弊部公式Twitter(現:X)](https://x.com/Carve_Fun)
+
+- [partsfan](https://partsfan.com/search/jp/)
