@@ -14,7 +14,7 @@ draft: false
 
 弊部に関連したリンク集です。
 
-- [函館ジムカーナチャンピョンシップ](http://hako-gym.com)
+- [函館ジムカーナチャレンジカップ](http://hako-gym.com)
 
 - [ジムキタ](http://gymkita.net/)
 
