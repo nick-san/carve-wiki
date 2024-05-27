@@ -15,5 +15,7 @@ BookRepo = 'https://github.com/nick-san/carve-wiki'
 
 BookDateFormat = '2006, Jan 2'
 
+ResourceURL = "https://carvewikicontents.blob.core.windows.net/"
+
 
 
