@@ -7,3 +7,13 @@ unsafe = true
 [[module.imports]]
 path = 'github.com/alex-shpak/hugo-book'
 
+[params]
+
+BookTheme = 'auto'
+
+BookRepo = 'https://github.com/nick-san/carve-wiki'
+
+BookDateFormat = '2006, Jan 2'
+
+
+

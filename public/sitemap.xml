@@ -2,15 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/carve-wiki/docs/goroku/a/</loc>
-  </url><url>
     <loc>http://localhost:1313/carve-wiki/docs/goroku/%E3%81%82/</loc>
   </url><url>
+    <loc>http://localhost:1313/carve-wiki/docs/goroku/%E3%81%8B/</loc>
+  </url><url>
+    <loc>http://localhost:1313/carve-wiki/docs/goroku/%E3%81%95/</loc>
+  </url><url>
+    <loc>http://localhost:1313/carve-wiki/docs/goroku/%E3%81%9F/</loc>
+  </url><url>
+    <loc>http://localhost:1313/carve-wiki/docs/goroku/%E3%81%AA/</loc>
+  </url><url>
+    <loc>http://localhost:1313/carve-wiki/docs/goroku/%E3%81%AF/</loc>
+  </url><url>
+    <loc>http://localhost:1313/carve-wiki/docs/goroku/%E3%81%BE/</loc>
+  </url><url>
+    <loc>http://localhost:1313/carve-wiki/docs/goroku/%E3%82%84/</loc>
+  </url><url>
+    <loc>http://localhost:1313/carve-wiki/docs/goroku/%E3%82%89/</loc>
+  </url><url>
     <loc>http://localhost:1313/carve-wiki/docs/links/</loc>
+  </url><url>
+    <loc>http://localhost:1313/carve-wiki/docs/goroku/%E3%82%8F/</loc>
   </url><url>
     <loc>http://localhost:1313/carve-wiki/docs/places/</loc>
   </url><url>
     <loc>http://localhost:1313/carve-wiki/docs/member/</loc>
+  </url><url>
+    <loc>http://localhost:1313/carve-wiki/docs/goroku/</loc>
   </url><url>
     <loc>http://localhost:1313/carve-wiki/</loc>
     <lastmod>2024-05-22T23:53:06+09:00</lastmod>
