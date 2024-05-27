@@ -1,5 +1,5 @@
 ---
-title: "語録と用語集"
+title: "💬語録と用語集"
 bookCollapseSection: true
 weight: 20
 ---

@@ -1,5 +1,5 @@
 ---
-title: "場所"
+title: "⛰️場所"
 weight: 1
 draft: false
 # bookFlatSection: false

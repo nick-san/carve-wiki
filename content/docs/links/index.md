@@ -1,5 +1,5 @@
 ---
-title: "リンク集"
+title: "🔗リンク集"
 weight: 1
 draft: false
 # bookFlatSection: false

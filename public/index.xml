@@ -9,6 +9,20 @@
     <lastBuildDate>Mon, 01 Jan 0001 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/carve-wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>⛰️場所</title>
+      <link>http://localhost:1313/carve-wiki/docs/places/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/carve-wiki/docs/places/</guid>
+      <description>場所 # ここでは弊部にまつわるさまざまな場所について説明する。&#xA;炎 美原店 # 2022-2023追いコンはここで行われた。&#xA;2022追いコンでは、OBの田中さんが参加し、当時B4のばっさーにホールケーキを食わせた。&#xA;のちに卒業生のぬまさんがばっさーに顔面ケーキを喰らわせた。&#xA;そののちに、ばっさーが↑♯に顔面ケーキを喰らわせた。&#xA;ホーマック # ホーマックとあるが、いまや正式名称ではない。DCMである。おれたちの心のなかではまだホーマックである。&#xA;なお、弊学に一番近い石川店には「ベンベンカフェ」なるアイスクリーム提供場所がある。1つ100円で飲み物付きは190円。破格である。&#xA;山岡家 # 自動車部員御用達のラーメン屋。深夜作業のあとや、雪遊びの後には沁みる。デフォでかためこいめ背脂おおめ。&#xA;かつては北大OBかつ弊部OBがバイトしていたこともあり、上磯店が一番ウマいとされていたが近年は諸説ある。&#xA;グリーンピア大沼 # 函館市からだいたい30-60分ほどの場所にあるリゾートホテル、レジャー施設である。&#xA;自動車部が運営協力をしている函館ジムカーナチャレンジカップの開催地でもある。&#xA;伊丹車輌 # 北広島市にある。場内にエコひろばというジャンクヤードがあり、n時間かけてもぎ取りに行く部員も多数いる。&#xA;中の人は事故ってフィットのドアを破壊した際に、先輩に取りに行かせたこと &amp;amp; 廃車の中で寝てたら知らないおじさんに起こされたこと がある。&#xA;なお窓は開かない模様。 過去にドライブした場所 # 函館山 # 毎日函館山生活 という異常行動をしている部員もいた。&#xA;きじひき高原 # 城岱スカイライン # 緑の島 # かもめ島 # 金森レンガ倉庫 # 裏夜景 # 函館にはさまざまな裏夜景が存在するが、大抵の場合「もどきの丘」を指す場合が多い。</description>
+    </item>
+    <item>
+      <title>🔗リンク集</title>
+      <link>http://localhost:1313/carve-wiki/docs/links/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/carve-wiki/docs/links/</guid>
+      <description>リンク集 # 弊部に関連したリンク集です。&#xA;函館ジムカーナチャンピョンシップ&#xA;ジムキタ&#xA;弊部公式Twitter(現:X)&#xA;partsfan</description>
+    </item>
+    <item>
       <title>あ行</title>
       <link>http://localhost:1313/carve-wiki/docs/goroku/%E3%81%82/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -72,13 +86,6 @@
       <description></description>
     </item>
     <item>
-      <title>リンク集</title>
-      <link>http://localhost:1313/carve-wiki/docs/links/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/carve-wiki/docs/links/</guid>
-      <description>リンク集 # 弊部に関連したリンク集です。&#xA;函館ジムカーナチャンピョンシップ&#xA;ジムキタ&#xA;弊部公式Twitter(現:X)&#xA;partsfan</description>
-    </item>
-    <item>
       <title>わ行</title>
       <link>http://localhost:1313/carve-wiki/docs/goroku/%E3%82%8F/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -86,14 +93,7 @@
       <description></description>
     </item>
     <item>
-      <title>場所</title>
-      <link>http://localhost:1313/carve-wiki/docs/places/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/carve-wiki/docs/places/</guid>
-      <description>場所 # ここでは弊部にまつわるさまざまな場所について説明する。&#xA;炎 美原店 # 2022-2023追いコンはここで行われた。&#xA;2022追いコンでは、OBの田中さんが参加し、当時B4のばっさーにホールケーキを食わせた。&#xA;のちに卒業生のぬまさんがばっさーに顔面ケーキを喰らわせた。&#xA;そののちに、ばっさーが↑♯に顔面ケーキを喰らわせた。&#xA;ホーマック # ホーマックとあるが、いまや正式名称ではない。DCMである。おれたちの心のなかではまだホーマックである。&#xA;なお、弊学に一番近い石川店には「ベンベンカフェ」なるアイスクリーム提供場所がある。1つ100円で飲み物付きは190円。破格である。&#xA;山岡家 # 自動車部員御用達のラーメン屋。深夜作業のあとや、雪遊びの後には沁みる。デフォでかためこいめ背脂おおめ。&#xA;かつては北大OBかつ弊部OBがバイトしていたこともあり、上磯店が一番ウマいとされていたが近年は諸説ある。&#xA;グリーンピア大沼 # 函館市からだいたい30-60分ほどの場所にあるリゾートホテル、レジャー施設である。&#xA;自動車部が運営協力をしている函館ジムカーナチャレンジカップの開催地でもある。&#xA;伊丹車輌 # 北広島市にある。場内にエコひろばというジャンクヤードがあり、n時間かけてもぎ取りに行く部員も多数いる。&#xA;中の人は事故ってフィットのドアを破壊した際に、先輩に取りに行かせたこと &amp;amp; 廃車の中で寝てたら知らないおじさんに起こされたこと がある。&#xA;なお窓は開かない模様。 過去にドライブした場所 # 函館山 # 毎日函館山生活 という異常行動をしている部員もいた。&#xA;きじひき高原 # 城岱スカイライン # 緑の島 # かもめ島 # 金森レンガ倉庫 # 裏夜景 # 函館にはさまざまな裏夜景が存在するが、大抵の場合「もどきの丘」を指す場合が多い。</description>
-    </item>
-    <item>
-      <title>部員</title>
+      <title>🧍部員</title>
       <link>http://localhost:1313/carve-wiki/docs/member/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/carve-wiki/docs/member/</guid>
