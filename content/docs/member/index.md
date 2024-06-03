@@ -39,7 +39,11 @@ draft: false
 
 北大自動車部兼未来大自動車部。新歓ドライブでは1年生を横に乗せ、愛車のGTOの加速で「わからせ」ていた。
 
-愛車は神のGTOとムーヴ。京都府出身。
+愛車は神のGTOとムーヴ。奈良県出身。
+
+![]({{<val resource>}}images/gto.png)
+
+![]({{<val resource>}}images/move.png)
 
 ## B3
 
