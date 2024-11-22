@@ -20,4 +20,4 @@ ResourceURL = "https://carvewikicontents.blob.core.windows.net/"
 [caches]
   [caches.getresource]
     dir = ':cacheDir/:project'
-    maxAge = -1
+    maxAge = 1
