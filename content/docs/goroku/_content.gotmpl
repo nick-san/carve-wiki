@@ -11,7 +11,7 @@
 {{ range seq 0 1999 }}
   {{ $offset := math.Mul $limit . }}
   {{ $data := dict }}
-  {{ $url := print $endpoint "?orders=createdAt&limit=" $limit "&offset=" $offset }}
+  {{ $url := print $endpoint "?orders=createdAt,updatedAt,id&limit=" $limit "&offset=" $offset }}
 
   {{ with resources.GetRemote $url $opts }}
     {{ with .Err }}
