@@ -17,3 +17,7 @@ BookDateFormat = '2006, Jan 2'
 
 ResourceURL = "https://carvewikicontents.blob.core.windows.net/"
 
+[caches]
+  [caches.getresource]
+    dir = ':cacheDir/:project'
+    maxAge = -1
