@@ -65,14 +65,11 @@ jobs:
         run: |
           hugo \
             --minify \
+            --disableFastRender \
             --buildDrafts \
             --buildFuture \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-      - name: Test curl
-        env:
-          HUGO_MICROCMS_KEY: ${{ secrets.HUGO_MICROCMS_KEY }}
-        run: curl "https://carve-wiki.microcms.io/api/v1/goroku" -H "X-MICROCMS-API-KEY: HUGO_MICROCMS_KEY
-      - name: Upload artifact
+     - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
