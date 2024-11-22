@@ -51,7 +51,7 @@ jobs:
       - name: Set current datetime as env variable
         env: 
           TZ: 'Asia/Tokyo'
-        run: echo "CURRENT_DATETIME=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV)
+        run: echo "CURRENT_DATETIME=$(date +'%Y-%m-%d %H:%M:%S')" >> $GITHUB_ENV
       - name: Build with Hugo
         env:
           # For maximum backward compatibility with Hugo modules
