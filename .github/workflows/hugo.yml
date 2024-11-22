@@ -64,7 +64,7 @@ jobs:
           HUGO_MICROCMS_KEY: ${{ secrets.HUGO_MICROCMS_KEY }}
         run: |
           hugo \
-            --disableFastRender \
+            --debug \
             --minify \
             --buildDrafts \
             --buildFuture \
