@@ -53,7 +53,7 @@ jobs:
           # For maximum backward compatibility with Hugo modules
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-          HUGO_MICROCMS_KEY: {{ secrets.HUGO_MICROCMS_KEY }}
+          HUGO_MICROCMS_KEY: ${{ secrets.HUGO_MICROCMS_KEY }}
         run: |
           hugo \
             --minify \
