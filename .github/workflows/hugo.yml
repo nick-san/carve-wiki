@@ -64,12 +64,12 @@ jobs:
           HUGO_MICROCMS_KEY: ${{ secrets.HUGO_MICROCMS_KEY }}
         run: |
           hugo \
-            --minify \
             --disableFastRender \
+            --minify \
             --buildDrafts \
             --buildFuture \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
-     - name: Upload artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: ./public
