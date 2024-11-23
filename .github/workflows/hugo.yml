@@ -67,7 +67,8 @@ jobs:
           HUGO_MICROCMS_KEY: ${{ secrets.HUGO_MICROCMS_KEY }}
         run: |
           hugo \
-            --minify \
+            --logLevel debug \
+            --verbose \
             --baseURL "https://nick-san.github.io/carve-wiki/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
