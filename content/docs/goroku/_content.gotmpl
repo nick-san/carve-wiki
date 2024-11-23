@@ -8,20 +8,23 @@
 {{ $dataList := slice }}
 
 {{/* 無限ループを作る構文が無いので十分大きなループ回数で代用 */}}
+
 {{ range seq 0 1999 }}
   {{ $offset := math.Mul $limit . }}
   {{ $data := dict }}
   {{ $url := print $endpoint "?orders=id&limit=" $limit "&offset=" $offset }}
 
-
   {{ with resources.GetRemote $url $opts }}
     {{ with .Err }}
+      {{ printf "Error fetching %s: %s" $url . | warn }}
       {{ errorf "Unable to get remote resource %s: %s" $url . }}
     {{ else }}
+      {{ printf "Fetched successfully: %s" $url | info }}
       {{ $data = . | transform.Unmarshal }}
       {{ $dataList = $dataList | append $data }}
     {{ end }}
   {{ else }}
+    {{ printf "Failed to initiate remote fetch for %s" $url | warn }}
     {{ errorf "Unable to get remote resource %s" $url }}
   {{ end }}
 
