@@ -3,7 +3,7 @@
 {{ $opts := dict
   "headers" (dict "X-MICROCMS-API-KEY" "JfZpDcWeVQASZLueN7HlOqYjPGSqQ57hnwiP")
 }}
-{{ $url := print $endpoint "?orders=id&limit=1" }}
+{{ $url := print $endpoint "?orders=id&limit=100" }}
 {{ with resources.GetRemote $url $opts }}
   {{ with .Err }}
     {{ errorf "Unable to get remote resource %s: %s" $url . }}
