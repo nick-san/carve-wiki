@@ -1,7 +1,7 @@
 {{ $apiKey := getenv "HUGO_MICROCMS_KEY" }}
 {{ $endpoint := "https://carve-wiki.microcms.io/api/v1/goroku" }}
 {{ $opts := dict
-  "headers" (dict "X-MICROCMS-API-KEY" $apiKey)
+  "headers" (dict "X-MICROCMS-API-KEY" "JfZpDcWeVQASZLueN7HlOqYjPGSqQ57hnwiP")
 }}
 {{ $url := print $endpoint "?orders=id&limit=1" }}
 {{ with resources.GetRemote $url $opts }}
