@@ -1,0 +1,38 @@
+{{ $apiKey := getenv "HUGO_MICROCMS_KEY" }}
+{{ if not $apiKey }}
+  {{ errorf "\nAPI Key is missing" }}
+{{ end }}
+
+{{ $endpoint := "https://carve-wiki.microcms.io/api/v1/goroku" }}
+{{ $opts := dict
+  "headers" (dict "X-MICROCMS-API-KEY" $apiKey)
+}}
+{{ $url := print $endpoint "?orders=id&limit=1" }}
+
+{{ warnf "\nAttempting to fetch: %s" $url }}
+{{ $response := resources.GetRemote $url $opts }}
+{{ warnf "\nResponse received: %v" $response }}
+
+{{ with $response }}
+  {{ with .Err }}
+    {{ errorf "\nError fetching data: %v" . }}
+  {{ else }}
+    {{ $data := . | transform.Unmarshal }}
+    {{ warnf "\nUnmarshaled data: %v" $data }}
+    {{ range $data.contents }}
+      {{ warnf "\nProcessing content: %s" .title }}
+      {{ $page := dict
+        "content" (dict "mediaType" "text/html" "value" .content)
+        "dates" (dict "date" (time.AsTime .publishedAt) "lastmod" (time.AsTime .revisedAt))
+        "kind" "page"
+        "params" (dict "id" .id "title" .title)
+        "path" .id
+        "title" .title
+      }}
+      {{ $.AddPage $page }}
+      {{ warnf "\nPage added for: %s" .title }}
+    {{ end }}
+  {{ end }}
+{{ else }}
+  {{ errorf "\nNo response received from API" }}
+{{ end }}
