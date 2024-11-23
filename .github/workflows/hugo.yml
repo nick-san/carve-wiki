@@ -65,6 +65,7 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
           HUGO_MICROCMS_KEY: ${{ secrets.HUGO_MICROCMS_KEY }}
+          TZ: 'Asia/Tokyo'
         run: |
           hugo \
             --logLevel debug \

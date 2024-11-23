@@ -1,4 +1,4 @@
-baseURL = 'https://carve-wiki.netlify.app'
+baseURL = 'https://nick-san.github.io/carve-wiki'
 languageCode = 'ja'
 title = 'FUN CARVE Wiki'
 unsafe = true
