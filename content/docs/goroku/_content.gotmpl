@@ -1,26 +1,26 @@
 {{ $apiKey := getenv "HUGO_MICROCMS_KEY" }}
+{{ if not $apiKey }}
+  {{ errorf "\nAPI Key is missing" }}
+{{ end }}
+
 {{ $endpoint := "https://carve-wiki.microcms.io/api/v1/goroku" }}
 {{ $opts := dict
   "headers" (dict "X-MICROCMS-API-KEY" $apiKey)
 }}
 {{ $url := print $endpoint "?orders=id&limit=1" }}
 
-{{/* デバッグ出力を追加 */}}
-{{ printf "\nDebug: API Key exists: %v" (ne $apiKey "") }}
-{{ printf "\nDebug: URL: %s" $url }}
-{{ printf "\nDebug: Options: %+v" $opts }}
+{{ warnf "\nAttempting to fetch: %s" $url }}
+{{ $response := resources.GetRemote $url $opts }}
+{{ warnf "\nResponse received: %v" $response }}
 
-{{ with resources.GetRemote $url $opts }}
-  {{ printf "\nDebug: Response received" }}
+{{ with $response }}
   {{ with .Err }}
-    {{ printf "\nDebug: Error occurred: %v" . }}
-    {{ errorf "Unable to get remote resource %s: %s" $url . }}
+    {{ errorf "\nError fetching data: %v" . }}
   {{ else }}
-    {{ printf "\nDebug: Response body: %s" .Content }}
     {{ $data := . | transform.Unmarshal }}
-    {{ printf "\nDebug: Unmarshaled data: %+v" $data }}
+    {{ warnf "\nUnmarshaled data: %v" $data }}
     {{ range $data.contents }}
-      {{ printf "\nDebug: Processing content: %s" .title }}
+      {{ warnf "\nProcessing content: %s" .title }}
       {{ $page := dict
         "content" (dict "mediaType" "text/html" "value" .content)
         "dates" (dict "date" (time.AsTime .publishedAt) "lastmod" (time.AsTime .revisedAt))
@@ -29,12 +29,10 @@
         "path" .id
         "title" .title
       }}
-      {{ printf "\nDebug: Created page object: %+v" $page }}
       {{ $.AddPage $page }}
-      {{ printf "\nDebug: Added page" }}
+      {{ warnf "\nPage added for: %s" .title }}
     {{ end }}
   {{ end }}
 {{ else }}
-  {{ printf "\nDebug: Failed to get remote resource" }}
-  {{ errorf "Unable to get remote resource %s" $url }}
+  {{ errorf "\nNo response received from API" }}
 {{ end }}
