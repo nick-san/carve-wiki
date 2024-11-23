@@ -21,3 +21,17 @@ ResourceURL = "https://carvewikicontents.blob.core.windows.net/"
   [caches.getresource]
     dir = ':cacheDir/:project'
     maxAge = 1
+
+[security]
+  enableInlineShortcodes = true
+  
+  [security.http]
+    methods = ['GET']
+    urls = ['.*']
+
+  [security.funcs]
+    getenv = ['^HUGO_', '^MICROCMS_']
+
+[resources]
+  [resources.getRemote]
+    timeout = '30s'
