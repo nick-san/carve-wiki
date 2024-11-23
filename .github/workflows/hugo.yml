@@ -67,6 +67,7 @@ jobs:
           HUGO_MICROCMS_KEY: ${{ secrets.HUGO_MICROCMS_KEY }}
         run: |
           hugo \
+            --ignoreCache \
             --debug \
             --minify \
             --buildDrafts \
