@@ -1,4 +1,5 @@
-baseURL = 'https://nick-san.github.io/carve-wiki'
+#baseURL = 'https://nick-san.github.io/carve-wiki'
+baseURL = '/'
 languageCode = 'ja'
 title = 'FUN CARVE Wiki'
 unsafe = true
