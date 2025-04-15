@@ -25,9 +25,9 @@ draft: false
 
 愛車は神のGTOとムーヴ。奈良県出身。
 
-![]({{<val resource>}}images/gto.png)
+![](/images/gto.png)
 
-![]({{<val resource>}}images/move.png)
+![](/images/move.png)
 
 ## B4
 
@@ -39,7 +39,7 @@ draft: false
 
 ### ↑♯
 
-![]({{<val resource>}}images/ncp91.jpg)
+![](/images/ncp91.jpg)
 
 ハンギョドンが大好き。自他共に認める自動車部一の巨乳。最近は将棋にハマっているらしい。地区戦ではR-Ecoでチャンピョン経験ありの実力者。
 
@@ -49,7 +49,7 @@ draft: false
 
 ### ニック
 
-![]({{<val resource>}}images/fitgd3.png)
+![](/images/fitgd3.png)
 
 弊Wikiをつくった。広報の中の人兼、異常おたく担当。春夏秋冬毎秒雪乞いをしている割にはスタッドレスの溝はない。
 
@@ -57,7 +57,7 @@ draft: false
 
 ### ロンダートさいとう
 
-![]({{<val resource>}}images/fitgk2.png)
+![](/images/fitgk2.png)
 
 わりと最近に入部して、車にアンダーネオンを付けたいという念願を達成した。家にハンコンがあるらしい。
 
@@ -65,7 +65,7 @@ draft: false
 
 ### しど
 
-![]({{<val resource>}}images/hiace.jpg)
+![](/images/hiace.jpg)
 
 ロンダートさいとうと同時期に加入。人の車に"3,2,1, GO SHOOT !!!"のステッカーをペタペタするのが趣味で、いつも持ちあるいている。
 
@@ -93,7 +93,8 @@ draft: false
 
 ### はるみち
 
-![]({{<val resource>}}images/kurovitz.jpg)
+![](/images/kurovitz.jpg)
+![](/images/copen.jpg)
 
 入部して間もなく、OBから黒ビッツを購入し、半年しないうちに山で刺さる。
 
@@ -105,6 +106,8 @@ draft: false
 
 ### つばさ
 
+![](/images/demio_red.jpg)
+
 徳島から自走でワゴンRに乗って来た猛者。
 
 悪い先輩に諭されて限定解除、晴れてDEのデミオを購入した。
@@ -115,7 +118,7 @@ draft: false
 
 ### ばっさー
 
-![]({{<val resource>}}images/zc32s.jpg)
+![](/images/zc32s.jpg)
 
 弊部にしては珍しく、速いのにストレートでM2まで進級している優等生。部長を2年連続でやっていたことがある。
 
