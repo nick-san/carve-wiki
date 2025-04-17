@@ -25,7 +25,7 @@
         "content" (dict "mediaType" "text/html" "value" .content)
         "dates" (dict "date" (time.AsTime .publishedAt) "lastmod" (time.AsTime .revisedAt))
         "kind" "page"
-        "params" (dict "id" .id "title" .title)
+        "params" (dict "id" .id "title" .title "toc" true)
         "path" .id
         "title" .title
       }}
